@@ -16,3 +16,6 @@ class Card:
 			return 10
 		else:
 			return int(self.rank)
+
+	def toString(self):
+		return self.rank+" of "+self.suit
